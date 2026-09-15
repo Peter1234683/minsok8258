@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/compare",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "그건지진 · 방금 그거, 지진이야",
+      "hasCanvas": false,
+      "bodyTextLen": 1631,
+      "bodyTextHash": "2da50b8c697cfb298de34b3ad58419dd1572572e54d926ef5ba9436ea157c389",
+      "bodyTextPrefix": "그건지진 방금 그거, 지진이야 손목 판별 · 한국 NOT FIRST. SPECIFIC. 이미 있는 것, 없는 것 지",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/compare-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "그건지진 · 방금 그거, 지진이야",
+      "hasCanvas": false,
+      "bodyTextLen": 1631,
+      "bodyTextHash": "2da50b8c697cfb298de34b3ad58419dd1572572e54d926ef5ba9436ea157c389",
+      "bodyTextPrefix": "그건지진 방금 그거, 지진이야 손목 판별 · 한국 NOT FIRST. SPECIFIC. 이미 있는 것, 없는 것 지",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/compare-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/compare-preview.json"
+}

@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/settings",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "그건지진 · 방금 그거, 지진이야",
+      "hasCanvas": false,
+      "bodyTextLen": 1480,
+      "bodyTextHash": "5a10fec8fb51403084f390f8ef00a02f28ccd85bb7d685f4fb0eb349792c8c38",
+      "bodyTextPrefix": "그건지진 방금 그거, 지진이야 손목 판별 · 한국 CONTEXT 여행 · 건물 · 알림 안전 · 기록 · 비교 홈베",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/settings-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "그건지진 · 방금 그거, 지진이야",
+      "hasCanvas": false,
+      "bodyTextLen": 1480,
+      "bodyTextHash": "5a10fec8fb51403084f390f8ef00a02f28ccd85bb7d685f4fb0eb349792c8c38",
+      "bodyTextPrefix": "그건지진 방금 그거, 지진이야 손목 판별 · 한국 CONTEXT 여행 · 건물 · 알림 안전 · 기록 · 비교 홈베",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/settings-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/settings-preview.json"
+}

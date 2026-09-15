@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/family",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "그건지진 · 방금 그거, 지진이야",
+      "hasCanvas": false,
+      "bodyTextLen": 335,
+      "bodyTextHash": "cc6a7ebd2dddd22512132ce35a4413ff367e0c0c08b7df6bc1f0e28d499c4e5d",
+      "bodyTextPrefix": "그건지진 방금 그거, 지진이야 손목 판별 · 한국 BAND 가족 밴드 같은 흔들림을 봤는지, 안전한지, 도움이 필요",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/family-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "그건지진 · 방금 그거, 지진이야",
+      "hasCanvas": false,
+      "bodyTextLen": 335,
+      "bodyTextHash": "cc6a7ebd2dddd22512132ce35a4413ff367e0c0c08b7df6bc1f0e28d499c4e5d",
+      "bodyTextPrefix": "그건지진 방금 그거, 지진이야 손목 판별 · 한국 BAND 가족 밴드 같은 흔들림을 봤는지, 안전한지, 도움이 필요",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/family-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/family-preview.json"
+}

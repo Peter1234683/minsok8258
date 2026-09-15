@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=Noto+Serif+KR:wght@500;600;700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "IBM Plex Sans KR", "Apple SD Gothic Neo", sans-serif;
+  --font-display: "Noto Serif KR", "Apple Myungjo", serif;
+  --font-mono: "IBM Plex Sans KR", ui-monospace, monospace;
+
+  --color-bg: #0b0c0e;
+  --color-bg-elevated: #141518;
+  --color-bg-subtle: #1c1d21;
+  --color-fg: #edece8;
+  --color-muted: #8b8a86;
+  --color-subtle: #5e5d59;
+  --color-steel: #c5cbd3;
+  --color-steel-fg: #0b0c0e;
+  --color-paper: #e8e4dc;
+  --color-paper-fg: #1a1916;
+  --color-border: rgb(237 236 232 / 0.12);
+  --color-border-strong: rgb(237 236 232 / 0.22);
+  --color-danger: #c45c4a;
+  --color-danger-fg: #fff4f1;
+  --color-warn: #c4a574;
+  --color-ok: #6b8f78;
+  --color-construction: #a3926f;
+  --color-body-move: #7a8ea3;
+  --color-candidate: #c45c4a;
+
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 28px;
+
+  --shadow-soft: 0 18px 40px rgb(0 0 0 / 0.35);
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html,
+  body,
+  #app {
+    min-height: 100%;
+    background: var(--color-bg);
+    color: var(--color-fg);
+    overflow-x: hidden;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    line-height: 1.5;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+    font-family: var(--font-display);
+    letter-spacing: -0.03em;
+    line-height: 1.2;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+.haptic-nudge {
+  animation: haptic-nudge 0.55s ease-out;
+}
+
+.haptic-warn {
+  animation: haptic-warn 0.7s ease-in-out;
+}
+
+@keyframes haptic-nudge {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 rgb(197 203 211 / 0);
+  }
+  40% {
+    box-shadow: 0 0 0 10px rgb(197 203 211 / 0.18);
+  }
+}
+
+@keyframes haptic-warn {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-3px);
+  }
+  40% {
+    transform: translateX(3px);
+  }
+  60% {
+    transform: translateX(-2px);
+  }
+}
+
+.duty-burst {
+  box-shadow: 0 0 0 6px rgb(197 203 211 / 0.12), 0 18px 40px rgb(0 0 0 / 0.35);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .duty-burst {
+    animation: duty-burst 1.1s ease-in-out infinite;
+  }
+}
+
+@keyframes duty-burst {
+  0%,
+  100% {
+    box-shadow: 0 0 0 4px rgb(197 203 211 / 0.08), 0 18px 40px rgb(0 0 0 / 0.35);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgb(197 203 211 / 0.2), 0 18px 40px rgb(0 0 0 / 0.35);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "그건지진 · 방금 그거, 지진이야",
+      "hasCanvas": false,
+      "bodyTextLen": 2008,
+      "bodyTextHash": "82ef9e181e72c8bb2af5902a8063d9fc2e1442bf9ee01def0efe2d730ccdb509",
+      "bodyTextPrefix": "그건지진 방금 그거, 지진이야 손목 판별 · 한국 서울 · 대한민국 기상청 현장경보·조기경보 그건지진 감시 중 0.",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/home.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "그건지진 · 방금 그거, 지진이야",
+      "hasCanvas": false,
+      "bodyTextLen": 2008,
+      "bodyTextHash": "82ef9e181e72c8bb2af5902a8063d9fc2e1442bf9ee01def0efe2d730ccdb509",
+      "bodyTextPrefix": "그건지진 방금 그거, 지진이야 손목 판별 · 한국 서울 · 대한민국 기상청 현장경보·조기경보 그건지진 감시 중 0.",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/home-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/home.json"
+}

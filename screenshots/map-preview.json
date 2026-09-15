@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/map",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "그건지진 · 방금 그거, 지진이야",
+      "hasCanvas": false,
+      "bodyTextLen": 184,
+      "bodyTextHash": "e1652e01e2b51b2e8bd0bd92e303a6ffefaed2dc0ccc6599e9ea52dd9e5e2be3",
+      "bodyTextPrefix": "그건지진 방금 그거, 지진이야 손목 판별 · 한국 MAP + LIST 지진 지도 홈베이스 서울 · 흰 고리가 당신.",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/map-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "그건지진 · 방금 그거, 지진이야",
+      "hasCanvas": false,
+      "bodyTextLen": 184,
+      "bodyTextHash": "e1652e01e2b51b2e8bd0bd92e303a6ffefaed2dc0ccc6599e9ea52dd9e5e2be3",
+      "bodyTextPrefix": "그건지진 방금 그거, 지진이야 손목 판별 · 한국 MAP + LIST 지진 지도 홈베이스 서울 · 흰 고리가 당신.",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/map-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/map-preview.json"
+}
